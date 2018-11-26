@@ -1,0 +1,17 @@
+body {
+    background: grey; 
+}
+
+.skillSize {
+    height: 100px;
+}
+
+.skillSize:hover {
+    transform: translateY(-10px);
+    animation: all .2s;
+}
+
+.skills-container {
+    background: white;
+    border-radius: 6px;
+}
