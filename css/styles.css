@@ -16,13 +16,21 @@ nav h1 {
 }
 
 .aboutMe-container {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 
 .greeting {
     text-align: center;
     font-family: 'Anton', sans-serif;
+}
+
+.bitmoji {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutMeTextWrap {
@@ -36,9 +44,15 @@ nav h1 {
 }
 
 /* ----------------------------------------------------Images--------------------------------------------------- */
+
+.portfolio-container {
+    margin-bottom: 30px;
+}
+
 .imgContainer {
     margin-bottom: 30px;
 }
+
 .image {
     opacity: 1;
     display: block;
