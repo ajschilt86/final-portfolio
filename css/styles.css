@@ -7,6 +7,10 @@ body {
     overflow-x: hidden; 
 }
 
+a {
+    text-decoration: none;
+}
+
 nav h1 {
     text-align: center;
 }
@@ -51,6 +55,25 @@ nav h1 {
 
 .imgContainer {
     margin-bottom: 30px;
+}
+
+.portfolioLinkButton {
+    background: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 100px;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
+
+.portfolioLinkButton:hover {
+    transition: .5s ease;
+    background-color: #666666;
+}
+
+.picDescription {
+    margin-bottom: 35px;
 }
 
 .image {
