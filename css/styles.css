@@ -1,33 +1,20 @@
 body {
-    background: grey; 
+    background: grey;
+    overflow-x: hidden; 
+}
+
+.titleText {
+    text-align: center;
 }
 
 .aboutMe-container {
-    background: white;
-    border-radius: 6px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-
-
-
-.skills-container {
-    margin-bottom: 50px;
-}
-
-.skillSize {
-    height: 100px;
-}
-
-.skillSize:hover {
-    transform: translateY(-10px);
-    animation: all .2s;
-}
-
-.skills-container {
-    background: white;
-    border-radius: 6px;
+.greeting {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
 /* ----------------------------------------------------Images--------------------------------------------------- */
@@ -41,6 +28,7 @@ body {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 10px;
 }
 
 .middle {
@@ -62,6 +50,26 @@ body {
 
 .imgContainer:hover .middle {
     opacity: 1;
+}
+
+/* ----------------------------------------------------Skills--------------------------------------------------- */
+
+.skills-container {
+    margin-bottom: 60px;
+}
+
+.skillSize {
+    height: 100px;
+}
+
+.skillSize:hover {
+    transform: translateY(-10px);
+    animation: all .2s;
+}
+
+.skills-container {
+    background: white;
+    border-radius: 6px;
 }
 
 /* ----------------------------------------------------Footer--------------------------------------------------- */
