@@ -11,6 +11,10 @@ a:link {
     text-decoration: none;
 }
 
+nav {
+    border-bottom: 10px solid #0B79FF;
+}
+
 nav h1 {
     text-align: center;
 }
@@ -54,7 +58,7 @@ nav h1 {
 /* ----------------------------------------------------Images--------------------------------------------------- */
 
 .portfolio-container {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 .imgContainer {
@@ -132,7 +136,7 @@ nav h1 {
     padding: 5px;
     color: white;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
@@ -147,7 +151,7 @@ nav h1 {
 .startup-container {
     background-color: white;
     height: 100px;
-    margin-bottom: 25px;
+    margin-bottom: 80px;
     border-radius: 10px;    
 }
 
@@ -182,11 +186,11 @@ nav h1 {
 /* ----------------------------------------------------Footer--------------------------------------------------- */
 
 .footerAll {
-    background-color: #666666;
+    background-color: white;
     height: 118px;
     border-top: 10px solid #0B79FF;
     text-align: center;
-    color: white;
+    color: black;
     line-height: 76px;
     margin-top: -45px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
