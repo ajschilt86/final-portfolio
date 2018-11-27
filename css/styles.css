@@ -15,8 +15,12 @@ nav h1 {
     text-align: center;
 }
 
+.navbar {
+    justify-content: center; 
+}
+
 .titleText {
-    text-align: center;
+    font-family: 'Questrial', sans-serif;
 }
 
 .aboutMe-container {
