@@ -1,5 +1,5 @@
 body {
-    background: grey;
+    background: #C0C0C0;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -124,7 +124,7 @@ nav h1 {
 
 /* ----------------------------------------------------Github--------------------------------------------------- */
 
-.github-container {
+.github {
     background-color: #0B79FF;
     border: .5px solid black;
     border-radius: 20px;
@@ -132,14 +132,28 @@ nav h1 {
     padding: 5px;
     color: white;
     margin: 0 auto;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
-.github-container:hover {
+.github:hover {
     transition: 1s ease;
     background-color: #666666;
+    color: white;
 }
 
+/* ----------------------------------------------------Startups------------------------------------------------- */
 
+.startup-container {
+    background-color: white;
+    height: 100px;
+    margin-bottom: 25px;
+    border-radius: 10px;    
+}
+
+.startUpText {
+    text-align: center;
+}
 /* ----------------------------------------------------Skills--------------------------------------------------- */
 
 .skillHead {
