@@ -149,14 +149,14 @@ nav h1 {
 /* ----------------------------------------------------Startups------------------------------------------------- */
 
 .startup-container {
-    background-color: white;
-    height: 100px;
+    /* height: 100px; */
     margin-bottom: 80px;
     border-radius: 10px;    
 }
 
 .startUpText {
     text-align: center;
+    margin-bottom: 25px;
 }
 /* ----------------------------------------------------Skills--------------------------------------------------- */
 
@@ -165,7 +165,7 @@ nav h1 {
 }
 
 .skills-container {
-    margin-bottom: 60px;
+    margin-bottom: 125px;
     padding-bottom: 15px;
 }
 
