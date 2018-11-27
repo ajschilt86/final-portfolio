@@ -7,7 +7,7 @@ body {
     overflow-x: hidden; 
 }
 
-a {
+a:link {
     text-decoration: none;
 }
 
@@ -55,12 +55,14 @@ nav h1 {
 
 .imgContainer {
     margin-bottom: 30px;
+    border: .1px solid black;
+    border-radius: 10px;
 }
 
 .portfolioLinkButton {
     background: none;
-    border: 1px solid black;
-    border-radius: 6px;
+    border: .5px solid black;
+    border-radius: 20px;
     width: 100px;
     text-decoration: none;
     padding: 5px;
@@ -68,12 +70,14 @@ nav h1 {
 }
 
 .portfolioLinkButton:hover {
-    transition: .5s ease;
+    transition: 1s ease;
     background-color: #666666;
 }
 
 .picDescription {
     margin-bottom: 35px;
+    font-family: 'Ranga', cursive;
+    font-size: 1.5rem;
 }
 
 .image {
@@ -81,13 +85,13 @@ nav h1 {
     display: block;
     width: 100%;
     height: auto;
-    transition: .5s ease;
+    transition: 1s ease;
     backface-visibility: hidden;
     border-radius: 10px;
 }
 
 .middle {
-    transition: .5s ease;
+    transition: 1s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -100,12 +104,37 @@ nav h1 {
 
 
 .imgContainer:hover .image {
-    opacity: 0.1;
+    opacity: 0;
+    background-color: blue;
+    transform: scale(.1);
+    transition: 1s ease;
 }
 
 .imgContainer:hover .middle {
     opacity: 1;
 }
+
+.imgContainer:hover {
+    background-color: #0B79FF;
+}
+
+/* ----------------------------------------------------Github--------------------------------------------------- */
+
+.github-container {
+    background-color: #0B79FF;
+    border: .5px solid black;
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px;
+    color: white;
+    margin: 0 auto;
+}
+
+.github-container:hover {
+    transition: 1s ease;
+    background-color: #666666;
+}
+
 
 /* ----------------------------------------------------Skills--------------------------------------------------- */
 
@@ -129,7 +158,7 @@ nav h1 {
 
 .skills-container {
     background: white;
-    border-radius: 6px;
+    border-radius: 10px;
 }
 
 /* ----------------------------------------------------Footer--------------------------------------------------- */
