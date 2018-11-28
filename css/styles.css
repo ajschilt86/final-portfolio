@@ -1,10 +1,10 @@
 body {
-    background: #C0C0C0;
+    background: #c0c0c0;
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 a:link {
@@ -12,8 +12,8 @@ a:link {
 }
 
 nav {
-    border-bottom: 10px solid #0B79FF;
-    margin-bottom: 80px;
+    border-bottom: 10px solid #0b79ff;
+    margin-bottom: 280px;
 }
 
 nav h1 {
@@ -21,11 +21,11 @@ nav h1 {
 }
 
 .navbar {
-    justify-content: center; 
+    justify-content: center;
 }
 
 .titleText {
-    font-family: 'Questrial', sans-serif;
+    font-family: "Questrial", sans-serif;
 }
 
 .aboutText {
@@ -33,14 +33,14 @@ nav h1 {
 }
 
 .aboutMe-container {
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-bottom: 70px;
 }
 
 .greeting {
     text-align: center;
-    font-family: 'Anton', sans-serif;
-    margin-bottom: 40px;
+    font-family: "Anton", sans-serif;
+    margin-bottom: 70px;
 }
 
 .bitmoji {
@@ -49,7 +49,7 @@ nav h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 25px;
+    margin-bottom: 150px;
 }
 
 .aboutMeTextWrap {
@@ -70,13 +70,13 @@ nav h1 {
 
 .imgContainer {
     margin-bottom: 30px;
-    border: .1px solid black;
+    border: 0.1px solid black;
     border-radius: 10px;
 }
 
 .portfolioLinkButton {
-    background-color: #FF3618;
-    border: .5px solid black;
+    background-color: #ff3618;
+    border: 0.5px solid black;
     border-radius: 20px;
     width: 100px;
     text-decoration: none;
@@ -87,13 +87,13 @@ nav h1 {
 
 .portfolioLinkButton:hover {
     transition: 1s ease;
-    background-color: #CB16E8;
+    background-color: #cb16e8;
     color: white;
 }
 
 .picDescription {
     margin-bottom: 35px;
-    font-family: 'Ranga', cursive;
+    font-family: "Ranga", cursive;
     font-size: 1.5rem;
 }
 
@@ -118,12 +118,10 @@ nav h1 {
     text-align: center;
 }
 
-
-
 .imgContainer:hover .image {
     opacity: 0;
-    background-color: #0B79FF;
-    transform: scale(.1);
+    background-color: #0b79ff;
+    transform: scale(0.1);
     transition: 1s ease;
 }
 
@@ -132,14 +130,14 @@ nav h1 {
 }
 
 .imgContainer:hover {
-    background-color: #0B79FF;
+    background-color: #0b79ff;
 }
 
 /* ----------------------------------------------------Github--------------------------------------------------- */
 
 .github {
-    background-color: #0B79FF;
-    border: .5px solid black;
+    background-color: #0b79ff;
+    border: 0.5px solid black;
     border-radius: 20px;
     width: 200px;
     padding: 15px;
@@ -151,7 +149,7 @@ nav h1 {
 
 .github:hover {
     transition: 1s ease;
-    background-color: #CB16E8;
+    background-color: #cb16e8;
     color: white;
 }
 
@@ -160,7 +158,7 @@ nav h1 {
 .startup-container {
     /* height: 100px; */
     margin-bottom: 80px;
-    border-radius: 10px;    
+    border-radius: 10px;
 }
 
 .startUpText {
@@ -185,7 +183,7 @@ nav h1 {
 
 .skillSize:hover {
     transform: translateY(-10px);
-    animation: all .2s;
+    animation: all 0.2s;
 }
 
 .skills-container {
@@ -198,13 +196,13 @@ nav h1 {
 .footerAll {
     background-color: white;
     height: 118px;
-    border-top: 10px solid #0B79FF;
+    border-top: 10px solid #0b79ff;
     text-align: center;
     color: black;
     line-height: 76px;
     margin-top: -45px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12px;    
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 h6 {
