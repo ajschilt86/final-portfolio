@@ -209,13 +209,30 @@ h6 {
 }
 
 /* --------------------------------------------------Break Points------------------------------------------------- */
+
+@media (max-width: 380px) { 
+    nav {
+        margin-bottom: 35px;
+    }
+
+    .greeting {
+        margin-bottom: 55px;
+        width: 200px;
+        margin: auto;
+    }
+
+    .bitmoji {
+        margin-bottom: 5px;
+    }
+}
+
 @media (max-width: 575.98px) { 
     nav {
         margin-bottom: 40px;
     }
 
     .greeting {
-        margin-bottom: 45px;
+        margin-bottom: 55px;
         width: 200px;
         margin: auto;
     }
