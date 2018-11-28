@@ -13,6 +13,7 @@ a:link {
 
 nav {
     border-bottom: 10px solid #0B79FF;
+    margin-bottom: 80px;
 }
 
 nav h1 {
@@ -27,6 +28,10 @@ nav h1 {
     font-family: 'Questrial', sans-serif;
 }
 
+.aboutText {
+    margin-bottom: 60px;
+}
+
 .aboutMe-container {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -35,6 +40,7 @@ nav h1 {
 .greeting {
     text-align: center;
     font-family: 'Anton', sans-serif;
+    margin-bottom: 40px;
 }
 
 .bitmoji {
@@ -43,6 +49,7 @@ nav h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 }
 
 .aboutMeTextWrap {
@@ -68,13 +75,14 @@ nav h1 {
 }
 
 .portfolioLinkButton {
-    background: none;
+    background-color: #FF3618;
     border: .5px solid black;
     border-radius: 20px;
     width: 100px;
     text-decoration: none;
     padding: 15px;
     color: white;
+    height: 20px;
 }
 
 .portfolioLinkButton:hover {
@@ -163,6 +171,7 @@ nav h1 {
 
 .skillHead {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .skills-container {
