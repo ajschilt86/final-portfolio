@@ -13,7 +13,7 @@ a:link {
 
 nav {
     border-bottom: 10px solid #0b79ff;
-    margin-bottom: 280px;
+    margin-bottom: 260px;
 }
 
 nav h1 {
@@ -30,6 +30,7 @@ nav h1 {
 
 .aboutText {
     margin-bottom: 60px;
+    font-size: 1.5em;
 }
 
 .aboutMe-container {
